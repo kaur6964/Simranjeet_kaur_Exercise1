@@ -48,7 +48,7 @@ public class CardTrick {
     
     
     int magicCard = 0;
-    
+    //find magicHand now
     for(int=0; i <magicHand.length; i++);
     
         if((magic.getValue() == magicHand[i].getvalue()) &&(magic.getSuit().equalsIgnorecase(magicHand[i]. getSuit())));            
@@ -66,5 +66,21 @@ if(magicCard==0)
 System.out.println("The card that you chose is not in the magic cards ");
 
 }
-
+//adding new card
+Card luckyCard= new Card();
+luckyCard.setvalue(2);
+luckyCard.setSuit("Clubs");
+//choose any card
+int lucky =0;
+for(int=0;i<magicHand.length;i++)
+{
+    if ((luckyCard.getvalue()==magicHand[i].getValue()) && (luckyCard.getSuit().equalsIgnorecase(magicHand[i].getSuit())))
+    {
+        lucky=1;
+    }
+    else 
+    {
+        lucky=0;
+    }
+}
 
