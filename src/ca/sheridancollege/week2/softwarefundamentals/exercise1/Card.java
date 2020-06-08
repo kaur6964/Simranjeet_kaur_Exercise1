@@ -13,6 +13,7 @@ package ca.sheridancollege.week2.softwarefundamentals.exercise1;
  * This code is to be used in ICE1. When you create your own branch,
  * add your name as a modifier.
  * @author dancye
+ * @modifier Simranjeet kaur. Student ID: 991548338.
  */
 public class Card {
 
