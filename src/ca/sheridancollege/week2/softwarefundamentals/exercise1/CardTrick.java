@@ -83,4 +83,14 @@ for(int=0;i<magicHand.length;i++)
         lucky=0;
     }
 }
+//search lucky card
+if (lucky==1)
+{
+System.out.println("wooo! You have won the game. Lucky card is in magic hand");
+}
+if (lucky==0)
+{
+System.out.println("Goshh! You have lost the game. the lucky card you chose is not in thr magic Hand");
+}
 
+}
